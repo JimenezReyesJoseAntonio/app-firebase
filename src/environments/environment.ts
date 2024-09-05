@@ -1,7 +1,7 @@
 export const environment = {
     production: false,
     firebaseConfig: {
-      apiKey: "AIzaSyBo2yt4BJIhYB1hOs2AVBspFYqsq9Dtho4",
+      apiKey: "xxxxxxxxxxxxx",
       authDomain: "crudangular-df183.firebaseapp.com",
       projectId: "crudangular-df183",
       storageBucket: "crudangular-df183.appspot.com",
