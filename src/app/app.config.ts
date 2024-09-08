@@ -5,6 +5,7 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 
 import { routes } from './app.routes';
 import { environment } from '../environments/environment';
+import { getAuth, provideAuth } from '@angular/fire/auth';
 
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(routes),
@@ -18,6 +19,9 @@ export const appConfig: ApplicationConfig = {
       measurementId: "G-HZXYB6T4RQ"
     })),
     provideFirestore(() => getFirestore()),
+    provideAuth(() => getAuth())
 
-  ]
+
+  ],
+  
 };
